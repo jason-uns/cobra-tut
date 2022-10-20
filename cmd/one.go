@@ -11,8 +11,9 @@ import (
 
 // oneCmd represents the one command
 var oneCmd = &cobra.Command{
-	Use:   "one",
-	Short: "A brief description of your command",
+	Use:     "one",
+	Aliases: []string{"cmd1"},
+	Short:   "A brief description of your command",
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:
 
